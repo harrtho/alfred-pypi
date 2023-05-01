@@ -1,4 +1,4 @@
-# PyPI-Alfred
+# Alfred-PyPI
 
 An Alfred workflow for looking up Python package versions on PyPI.
 
@@ -8,7 +8,7 @@ An Alfred workflow for looking up Python package versions on PyPI.
 
 ## Installation
 
-To install, download and run the [`PyPI-*.alfredworkflow`](https://github.com/grantmcconnaughey/pypi-alfred/releases) file in GitHub.
+To install, download and run the [`PyPI-*.alfredworkflow`](https://github.com/harrtho/alfred-pypi/releases) file in GitHub.
 
 ## Development
 

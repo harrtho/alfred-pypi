@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.pypi-alfred</string>
-	<key>category</key>
-	<string>Productivity</string>
+	<string>de.xdevcloud.alfred-pypi</string>
 	<key>connections</key>
 	<dict>
 		<key>8986FE5C-996D-432F-ADB5-5893F892D08F</key>
@@ -23,7 +21,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Grant McConnaughey</string>
+	<string>Thomas Harr</string>
 	<key>description</key>
 	<string>Search PyPI for Python package versions.</string>
 	<key>disabled</key>
@@ -121,6 +119,6 @@
 	<key>version</key>
 	<string>0.1.2</string>
 	<key>webaddress</key>
-	<string>github.com/grantmcconnaughey/pypi-alfred</string>
+	<string>https://github.com/harrtho/alfred-pypi</string>
 </dict>
 </plist>

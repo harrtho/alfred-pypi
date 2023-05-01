@@ -5,6 +5,11 @@ from distutils.version import LooseVersion
 from workflow import ICON_WEB, Workflow, web
 
 CACHE_TTL = 600
+
+# GitHub repo for self-updating
+UPDATE_SETTINGS = {'github_slug': 'harrtho/alfred-pypi',
+                   'frequency': 7}
+
 PYPI_PACKAGE_URL = 'https://pypi.python.org/pypi/{package_name}/json'
 
 logger = None
@@ -76,10 +81,7 @@ def main(wf):
 
 
 if __name__ == '__main__':
-    wf = Workflow(update_settings={
-        'github_slug': 'grantmcconnaughey/pypi-alfred',
-        'frequency': 7
-    })
+    wf = Workflow(update_settings=UPDATE_SETTINGS)
     logger = wf.logger
 
     if wf.update_available:
