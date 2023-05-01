@@ -1,5 +1,9 @@
 # Alfred-PyPI
 
+[![GitHub Version][version-shield]][releases]
+[![GitHub All Releases][downloads-shield]][releases]
+[![GitHub][license-shield]][mit-license]
+
 An Alfred workflow for looking up Python package versions on PyPI.
 
 ![PyPI Alfred Search](img/pypi-alfred-search.png)
@@ -30,7 +34,10 @@ Alfred PyPI uses the following libraries:
 - [Alfred-PyWorkflow][alfred-pyworkflow] ([MIT License][mit-license])
 
 [alfred-pyworkflow]: https://github.com/harrtho/alfred-pyworkflow
+[downloads-shield]: https://img.shields.io/github/downloads/harrtho/alfred-pypi/total.svg
 [example]: http://pypi.python.org/pypi/requests/json
 [grantmcconnaughey]: https://github.com/grantmcconnaughey
+[license-shield]: https://img.shields.io/github/license/harrtho/alfred-pypi.svg
 [mit-license]: https://opensource.org/licenses/MIT
 [releases]: https://github.com/harrtho/alfred-pypi/releases
+[version-shield]: https://img.shields.io/github/release/harrtho/alfred-pypi.svg
