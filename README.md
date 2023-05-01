@@ -17,5 +17,10 @@ therefore python 3 needs to be installed to used this workflow.
 
 This workflow reads data from the PyPI project JSON API. [Click here][example] for an example of what that API returns.
 
+## Contributors
+
+Origin Grant McConnaughey [grantmcconnaughey][grantmcconnaughey]
+
 [example]: http://pypi.python.org/pypi/requests/json
+[grantmcconnaughey]: https://github.com/grantmcconnaughey
 [releases]: https://github.com/harrtho/alfred-pypi/releases
