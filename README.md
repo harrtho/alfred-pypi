@@ -21,6 +21,16 @@ This workflow reads data from the PyPI project JSON API. [Click here][example] f
 
 Origin Grant McConnaughey [grantmcconnaughey][grantmcconnaughey]
 
+## License
+
+This workflow is released under the [MIT License][mit-license].
+
+Alfred PyPI uses the following libraries:
+
+- [Alfred-PyWorkflow][alfred-pyworkflow] ([MIT License][mit-license])
+
+[alfred-pyworkflow]: https://github.com/harrtho/alfred-pyworkflow
 [example]: http://pypi.python.org/pypi/requests/json
 [grantmcconnaughey]: https://github.com/grantmcconnaughey
+[mit-license]: https://opensource.org/licenses/MIT
 [releases]: https://github.com/harrtho/alfred-pypi/releases
