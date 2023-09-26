@@ -1,43 +1,54 @@
-# Alfred-PyPI
+# PyPI Alfred Workflow
 
-[![GitHub Version][version-shield]][releases]
-[![GitHub All Releases][downloads-shield]][releases]
-[![GitHub][license-shield]][mit-license]
+[![GitHub Version][shield-version]][gh-releases]
+[![GitHub All Releases][shield-downloads]][gh-releases]
+[![GitHub][shield-license]][license-mit]
 
-An Alfred workflow for looking up Python package versions on PyPI.
+Look up for Python packages on [PyPI][pypi] in [Alfred][alfred].
 
-![PyPI Alfred Search](img/pypi-alfred-search.png)
+![][preview]
 
-![PyPI Alfred Result](img/pypi-alfred-result.png)
+## Download & Installation
 
-## Installation
+Download the [latest workflow release][gh-latest-release] from GitHub. Open the workflow file to
+install in Alfred.
 
-To install, download and run the [`PyPI-*.alfredworkflow`][releases] file in GitHub.
+## Usage
 
-## Development
+- `pypi [<query>]` — Show a list of releases of the Python package.
+  - `↩` — Open the PyPI package release in your browser
 
-PyPI-Alfred works with Python 3.7+ only! Since macOS 12.3 (Monterey) python is no longer part of OS,
-therefore python 3 needs to be installed to used this workflow.
+This workflow reads data from the PyPI project JSON API. [Click here][example] for an example of
+what that API returns.
 
-This workflow reads data from the PyPI project JSON API. [Click here][example] for an example of what that API returns.
+## Bug Reports and Feature Requests
+
+Please use [GitHub issues][gh-issues] to report bugs or request features.
 
 ## Contributors
 
-Origin Grant McConnaughey [grantmcconnaughey][grantmcconnaughey]
+This Alfred Workflow comes from the [abandoned Workflow][abandoned-workflow] of
+[Grant McConnaughey][grantmcconnaughey]
 
 ## License
 
-This workflow is released under the [MIT License][mit-license].
+PyPI Alfred Workflow is licensed under the [MIT License][license-mit]
 
-Alfred PyPI uses the following libraries:
+The workflow uses the following libraries:
 
-- [Alfred-PyWorkflow][alfred-pyworkflow] ([MIT License][mit-license])
+- [Alfred-PyWorkflow][alfred-pyworkflow] ([MIT License][license-mit])
 
+[abandoned-workflow]: https://github.com/grantmcconnaughey/pypi-alfred
 [alfred-pyworkflow]: https://github.com/harrtho/alfred-pyworkflow
-[downloads-shield]: https://img.shields.io/github/downloads/harrtho/alfred-pypi/total.svg
-[example]: http://pypi.python.org/pypi/requests/json
+[alfred]: https://www.alfredapp.com
+[example]: https://pypi.org/pypi/alfred-pyworkflow/json
+[gh-issues]: https://github.com/harrtho/alfred-pypi/issues
+[gh-latest-release]: https://github.com/harrtho/alfred-pypi/releases/latest
+[gh-releases]: https://github.com/harrtho/alfred-pypi/releases
 [grantmcconnaughey]: https://github.com/grantmcconnaughey
-[license-shield]: https://img.shields.io/github/license/harrtho/alfred-pypi.svg
-[mit-license]: https://opensource.org/licenses/MIT
-[releases]: https://github.com/harrtho/alfred-pypi/releases
-[version-shield]: https://img.shields.io/github/release/harrtho/alfred-pypi.svg
+[license-mit]: https://opensource.org/licenses/MIT
+[preview]: img/preview.png
+[pypi]:https://pypi.org
+[shield-downloads]: https://img.shields.io/github/downloads/harrtho/alfred-pypi/total.svg
+[shield-license]: https://img.shields.io/github/license/harrtho/alfred-pypi.svg
+[shield-version]: https://img.shields.io/github/release/harrtho/alfred-pypi.svg
